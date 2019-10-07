@@ -1,9 +1,23 @@
-p{
-	color: yellow;
+h1{
+	color: #3AFF05;
 	font-size: 4em;
 	text-align: center;
 }
 
-h1{
+p{
+	text-align: center; 
+	color: #2F0FF2;
+}
+
+button{ 
+ 
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 4em;
+
+       }
+#CantTrumpTheTrump{
+	
 	text-align: center;
 }
