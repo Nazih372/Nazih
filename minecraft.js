@@ -3,3 +3,6 @@ function Shut_up(){
 	alert("shut up");
 	
 }
+
+function number3(){
+	

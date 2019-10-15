@@ -1,12 +1,24 @@
+body{
+	background-color: #7422C7;
+}
+
+
 h1{
-	color: #3AFF05;
+	color: red;
 	font-size: 4em;
 	text-align: center;
 }
 
 p{
 	text-align: center; 
-	color: #2F0FF2;
+	color: black;
+	padding: -10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 button{ 
@@ -14,7 +26,7 @@ button{
       text-align: center;
       background-color: black;
       color: white;
-      padding: 4em;
+      padding: 4px;
 
        }
 #CantTrumpTheTrump{
@@ -22,14 +34,14 @@ button{
 	text-align: center;
 }
 
-{
+#Welcome{
+	padding: 14px 16px;
+	text-align: center;
+	margin: 10px;
 
-	width: 
-	height 
 }
 
-#whalecome{
-	text-align: center;
-	margin: 50px;
-	padding: 2em;
+#number3{
+
+	align-content: center;
 }
