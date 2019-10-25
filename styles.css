@@ -41,7 +41,55 @@ button{
 
 }
 
-#number3{
+#guess_number{
 
 	align-content: center;
+	text-align: center;
+	position: center;
+	
+}
+
+ul #anything1{
+
+	padding: 30px;
+	margin: 10px;
+	display: inline;
+}
+
+ul #loop{
+
+	padding:30px;
+	margin: 10px;
+	display: inline;
+}
+
+#loldude{
+
+	font-size: 100px;
+	color: Yellow
+}
+
+#Murray{
+
+	font-size: 50px;
+	color: white;
+	font-style: Daily Tabloid JNL
+}
+
+#looping{
+
+	background-image: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/04/03/14/joker-phoenix.jpg?w968h681');
+	background-repeat: no-repeat;
+	background-size: 85%;
+	object-fit: fill;
+}
+
+#password{
+
+	  text-align: center;
+      background-color: black;
+      color: white;
+      padding: 4px;
+      align-content: center;
+
 }

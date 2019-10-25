@@ -4,5 +4,50 @@ function Shut_up(){
 	
 }
 
-function number3(){
 	
+
+function guess_number(){
+  var secret = 69;
+  var guess;
+  while(guess != secret){ 
+    guess = prompt("Guess a number between 1 and 100");
+   
+    if(guess == secret){
+       alert("Congratulations!");
+    }
+    else if(guess < secret){
+        alert("guess higher");        
+    }
+    else if(guess > secret){
+      alert("guess lower");
+    }
+    else if(guess == "lovelife"){
+    	break;
+    }
+    else{
+      alert("that's not a number");
+    }
+  }
+}
+
+
+function password(){
+  let pwd = "Arthur";
+  let user = prompt("Enter the password to the funhouse. You have 5 guesses");
+  for ( let i=0; i<4; i++){
+    user = prompt("Wrong. Enter the password:");
+  }
+}
+
+
+function secondone(){
+  let pwd = "123abc";
+  let user = prompt("Enter the password. There is no limit on the number of attempts");
+  while (user != pwd){
+    user = prompt("Incorrect password. Enter the password:");
+  }
+  alert("Welcome");
+}  
+
+
+function GoBack
