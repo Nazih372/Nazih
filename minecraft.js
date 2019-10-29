@@ -45,9 +45,18 @@ function secondone(){
   let user = prompt("Enter the password. There is no limit on the number of attempts");
   while (user != pwd){
     user = prompt("Incorrect password. Enter the password:");
-  }
   alert("Welcome");
 }  
 
+}
+
 
 function GoBack
+
+function brov(){
+	var year = prompt("Give me a year and I will give you a century");
+	var century = year/100 + 1;
+	console.log (century);
+	prompt("That year is the " + Math.floor (century) + "century");
+}
+  
