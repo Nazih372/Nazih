@@ -93,3 +93,25 @@ ul #loop{
       align-content: center;
 
 }
+
+ul #more{
+
+	padding:30px;
+	margin: 10px;
+	display: inline;
+}
+
+#miker{
+
+	font-size: 20px;
+	text-align: left;
+	color: white;
+}
+
+#gobackk1{
+
+	color: white;
+	align-content: center;
+	text-align: center;
+	background-color: white;
+}
