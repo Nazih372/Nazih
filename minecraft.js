@@ -31,6 +31,7 @@ function guess_number(){
 }
 
 
+
 function password(){
   let pwd = "Arthur";
   let user = prompt("Enter the password to the funhouse. You have 5 guesses");
@@ -39,19 +40,16 @@ function password(){
   }
 }
 
-
 function secondone(){
   let pwd = "123abc";
   let user = prompt("Enter the password. There is no limit on the number of attempts");
   while (user != pwd){
     user = prompt("Incorrect password. Enter the password:");
   alert("Welcome");
-}  
-
+  }  
 }
 
 
-function GoBack
 
 function brov(){
 	var year = prompt("Give me a year and I will give you a century");
@@ -59,4 +57,10 @@ function brov(){
 	console.log (century);
 	prompt("That year is the " + Math.floor (century) + "century");
 }
-  
+
+
+function triangle(){
+	var x = prompt("Enter an angle belonging to a triangle(Number only)");
+	var y = prompt("Enter the other angle of the same triangle(Number)";
+		alert(180 - x - y + " " + "degree is the third angle");
+}
