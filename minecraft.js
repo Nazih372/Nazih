@@ -60,8 +60,33 @@ function brov(){
 
 
 function triangle(){
-	var x = prompt("Enter an angle belonging to a triangle(Just the number)");
-	var y = prompt("Enter the other angle belonging to the triangle");
-	alert(100 - x - y + " " + "degree is the 3rdangle of the triangle");
+	var a = prompt("Enter an angle belonging to a triangle(Just the number)");
+	var b = prompt("Enter the other angle belonging to the triangle");
+	var z = 180 - (parseint(x) + parseint(y));
+	alert(c + "degree is Le Third of the triangle");
 
 }
+
+function fallout76(){
+	var b = 1;
+	alert("Check console for results")
+	while (b <= 100)
+	{
+		if(b & 4 == 0 && b % 10 == 0){
+		console.log("Fourteen");
+	    }
+	    else if (b & 10 == 0){
+		console.log("Ten");
+	    }
+	    else if (b % 4 == 0){
+		console.log("Four");
+	    }
+	    else{
+		 console.log(b);
+	    }
+	    b = b + 1;
+    }
+}
+
+	
+
