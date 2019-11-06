@@ -59,3 +59,9 @@ function brov(){
 }
 
 
+function triangle(){
+	var x = prompt("Enter an angle belonging to a triangle(Just the number)");
+	var y = prompt("Enter the other angle belonging to the triangle");
+	alert(100 - x - y + " " + "degree is the 3rdangle of the triangle");
+
+}
